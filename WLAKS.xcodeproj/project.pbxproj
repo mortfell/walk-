@@ -7,28 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155679FE1784F22400E77488 /* background.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 155679FC1784F22400E77488 /* background.bmp */; };
+		155679FF1784F22400E77488 /* guy.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 155679FD1784F22400E77488 /* guy.bmp */; };
+		1573B466178B74CA0042A26A /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1573B465178B74CA0042A26A /* SDL_mixer.framework */; };
+		1573B46D178B76910042A26A /* foot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1573B46C178B76910042A26A /* foot.wav */; };
 		15BC85A01784DD8A00CFF5B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC859F1784DD8A00CFF5B5 /* Cocoa.framework */; };
 		15BC85AA1784DD8A00CFF5B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15BC85A81784DD8A00CFF5B5 /* InfoPlist.strings */; };
-		15BC85AC1784DD8A00CFF5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85AB1784DD8A00CFF5B5 /* main.m */; };
 		15BC85B01784DD8A00CFF5B5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 15BC85AE1784DD8A00CFF5B5 /* Credits.rtf */; };
-		15BC85B31784DD8A00CFF5B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85B21784DD8A00CFF5B5 /* AppDelegate.m */; };
 		15BC85B61784DD8A00CFF5B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BC85B41784DD8A00CFF5B5 /* MainMenu.xib */; };
+		15BC85C41784DDDA00CFF5B5 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85C31784DDDA00CFF5B5 /* SDLMain.m */; };
+		15BC85C61784DDEA00CFF5B5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BC85C51784DDEA00CFF5B5 /* SDL.framework */; };
+		15BC85C81784DE1B00CFF5B5 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85C71784DE1B00CFF5B5 /* globals.cpp */; };
+		15BC85CB1784DF9900CFF5B5 /* guy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85CA1784DF9900CFF5B5 /* guy.cpp */; };
+		15BC85CD1784EF5600CFF5B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BC85CC1784EF5600CFF5B5 /* main.cpp */; };
+		15DFA6F5178B7B4B0066EA98 /* high.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15DFA6F4178B7B4B0066EA98 /* high.wav */; };
+		15DFA6F8178B7FA60066EA98 /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15DFA6F7178B7FA60066EA98 /* duck.wav */; };
+		15DFA6FA178B8FDE0066EA98 /* boomtownforks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 15DFA6F9178B8FDE0066EA98 /* boomtownforks.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15BC859B1784DD8A00CFF5B5 /* walk?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walk?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155679FC1784F22400E77488 /* background.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = background.bmp; sourceTree = "<group>"; };
+		155679FD1784F22400E77488 /* guy.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = guy.bmp; sourceTree = "<group>"; };
+		1573B465178B74CA0042A26A /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = Library/Frameworks/SDL_mixer.framework; sourceTree = SDKROOT; };
+		1573B46C178B76910042A26A /* foot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = foot.wav; sourceTree = SOURCE_ROOT; };
+		15BC859B1784DD8A00CFF5B5 /* WLAKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLAKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BC859F1784DD8A00CFF5B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		15BC85A21784DD8A00CFF5B5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		15BC85A31784DD8A00CFF5B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		15BC85A41784DD8A00CFF5B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		15BC85A71784DD8A00CFF5B5 /* walk?-Info.plist */ = {isa = PBXFileReference; path = "walk?-Info.plist"; sourceTree = "<group>"; };
+		15BC85A71784DD8A00CFF5B5 /* WLAKS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WLAKS-Info.plist"; sourceTree = "<group>"; };
 		15BC85A91784DD8A00CFF5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		15BC85AB1784DD8A00CFF5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15BC85AD1784DD8A00CFF5B5 /* walk?-Prefix.pch */ = {isa = PBXFileReference; path = "walk?-Prefix.pch"; sourceTree = "<group>"; };
+		15BC85AD1784DD8A00CFF5B5 /* WLAKS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLAKS-Prefix.pch"; sourceTree = "<group>"; };
 		15BC85AF1784DD8A00CFF5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		15BC85B11784DD8A00CFF5B5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		15BC85B21784DD8A00CFF5B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		15BC85B51784DD8A00CFF5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		15BC85C01784DDA000CFF5B5 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		15BC85C21784DDDA00CFF5B5 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = "../../SDL/devel-lite/SDLMain.h"; sourceTree = "<group>"; };
+		15BC85C31784DDDA00CFF5B5 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = "../../SDL/devel-lite/SDLMain.m"; sourceTree = "<group>"; };
+		15BC85C51784DDEA00CFF5B5 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Library/Frameworks/SDL.framework; sourceTree = SDKROOT; };
+		15BC85C71784DE1B00CFF5B5 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
+		15BC85C91784DF8F00CFF5B5 /* guy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guy.h; sourceTree = "<group>"; };
+		15BC85CA1784DF9900CFF5B5 /* guy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guy.cpp; sourceTree = "<group>"; };
+		15BC85CC1784EF5600CFF5B5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15DFA6F4178B7B4B0066EA98 /* high.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = high.wav; path = "../../../../Dropbox/lazyfoo/11-playsound/lesson11/high.wav"; sourceTree = "<group>"; };
+		15DFA6F7178B7FA60066EA98 /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = SOURCE_ROOT; };
+		15DFA6F9178B8FDE0066EA98 /* boomtownforks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boomtownforks.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1573B466178B74CA0042A26A /* SDL_mixer.framework in Frameworks */,
+				15BC85C61784DDEA00CFF5B5 /* SDL.framework in Frameworks */,
 				15BC85A01784DD8A00CFF5B5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,9 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155679FB1784F22400E77488 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				155679FC1784F22400E77488 /* background.bmp */,
+				155679FD1784F22400E77488 /* guy.bmp */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
 		15BC85901784DD8900CFF5B5 = {
 			isa = PBXGroup;
 			children = (
+				1573B465178B74CA0042A26A /* SDL_mixer.framework */,
+				15BC85C51784DDEA00CFF5B5 /* SDL.framework */,
+				15BC85C21784DDDA00CFF5B5 /* SDLMain.h */,
+				15BC85C31784DDDA00CFF5B5 /* SDLMain.m */,
 				15BC85A51784DD8A00CFF5B5 /* walk? */,
 				15BC859E1784DD8A00CFF5B5 /* Frameworks */,
 				15BC859C1784DD8A00CFF5B5 /* Products */,
@@ -55,7 +92,7 @@
 		15BC859C1784DD8A00CFF5B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15BC859B1784DD8A00CFF5B5 /* walk?.app */,
+				15BC859B1784DD8A00CFF5B5 /* WLAKS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,8 +119,6 @@
 		15BC85A51784DD8A00CFF5B5 /* walk? */ = {
 			isa = PBXGroup;
 			children = (
-				15BC85B11784DD8A00CFF5B5 /* AppDelegate.h */,
-				15BC85B21784DD8A00CFF5B5 /* AppDelegate.m */,
 				15BC85B41784DD8A00CFF5B5 /* MainMenu.xib */,
 				15BC85A61784DD8A00CFF5B5 /* Supporting Files */,
 			);
@@ -93,11 +128,20 @@
 		15BC85A61784DD8A00CFF5B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15BC85A71784DD8A00CFF5B5 /* walk?-Info.plist */,
+				15BC85A71784DD8A00CFF5B5 /* WLAKS-Info.plist */,
 				15BC85A81784DD8A00CFF5B5 /* InfoPlist.strings */,
-				15BC85AB1784DD8A00CFF5B5 /* main.m */,
-				15BC85AD1784DD8A00CFF5B5 /* walk?-Prefix.pch */,
+				15BC85AD1784DD8A00CFF5B5 /* WLAKS-Prefix.pch */,
 				15BC85AE1784DD8A00CFF5B5 /* Credits.rtf */,
+				15BC85C01784DDA000CFF5B5 /* globals.h */,
+				15BC85C91784DF8F00CFF5B5 /* guy.h */,
+				15BC85CC1784EF5600CFF5B5 /* main.cpp */,
+				1573B46C178B76910042A26A /* foot.wav */,
+				15DFA6F4178B7B4B0066EA98 /* high.wav */,
+				15DFA6F9178B8FDE0066EA98 /* boomtownforks.wav */,
+				15BC85CA1784DF9900CFF5B5 /* guy.cpp */,
+				15BC85C71784DE1B00CFF5B5 /* globals.cpp */,
+				15DFA6F7178B7FA60066EA98 /* duck.wav */,
+				155679FB1784F22400E77488 /* images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15BC859A1784DD8A00CFF5B5 /* walk? */ = {
+		15BC859A1784DD8A00CFF5B5 /* WLAKS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15BC85B91784DD8A00CFF5B5 /* Build configuration list for PBXNativeTarget "walk?" */;
+			buildConfigurationList = 15BC85B91784DD8A00CFF5B5 /* Build configuration list for PBXNativeTarget "WLAKS" */;
 			buildPhases = (
 				15BC85971784DD8A00CFF5B5 /* Sources */,
 				15BC85981784DD8A00CFF5B5 /* Frameworks */,
@@ -117,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = "walk?";
+			name = WLAKS;
 			productName = "walk?";
-			productReference = 15BC859B1784DD8A00CFF5B5 /* walk?.app */;
+			productReference = 15BC859B1784DD8A00CFF5B5 /* WLAKS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +175,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Mortfell Oktorium";
 			};
-			buildConfigurationList = 15BC85951784DD8900CFF5B5 /* Build configuration list for PBXProject "walk?" */;
+			buildConfigurationList = 15BC85951784DD8900CFF5B5 /* Build configuration list for PBXProject "WLAKS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15BC859A1784DD8A00CFF5B5 /* walk? */,
+				15BC859A1784DD8A00CFF5B5 /* WLAKS */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +200,12 @@
 				15BC85AA1784DD8A00CFF5B5 /* InfoPlist.strings in Resources */,
 				15BC85B01784DD8A00CFF5B5 /* Credits.rtf in Resources */,
 				15BC85B61784DD8A00CFF5B5 /* MainMenu.xib in Resources */,
+				155679FE1784F22400E77488 /* background.bmp in Resources */,
+				155679FF1784F22400E77488 /* guy.bmp in Resources */,
+				1573B46D178B76910042A26A /* foot.wav in Resources */,
+				15DFA6F5178B7B4B0066EA98 /* high.wav in Resources */,
+				15DFA6F8178B7FA60066EA98 /* duck.wav in Resources */,
+				15DFA6FA178B8FDE0066EA98 /* boomtownforks.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15BC85AC1784DD8A00CFF5B5 /* main.m in Sources */,
-				15BC85B31784DD8A00CFF5B5 /* AppDelegate.m in Sources */,
+				15BC85C41784DDDA00CFF5B5 /* SDLMain.m in Sources */,
+				15BC85C81784DE1B00CFF5B5 /* globals.cpp in Sources */,
+				15BC85CB1784DF9900CFF5B5 /* guy.cpp in Sources */,
+				15BC85CD1784EF5600CFF5B5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "walk?/walk?-Prefix.pch";
-				INFOPLIST_FILE = "walk?/walk?-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "walk?/WLAKS-Prefix.pch";
+				INFOPLIST_FILE = "walk?/WLAKS-Info.plist";
+				PRODUCT_NAME = WLAKS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,9 +313,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "walk?/walk?-Prefix.pch";
-				INFOPLIST_FILE = "walk?/walk?-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "walk?/WLAKS-Prefix.pch";
+				INFOPLIST_FILE = "walk?/WLAKS-Info.plist";
+				PRODUCT_NAME = WLAKS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -271,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15BC85951784DD8900CFF5B5 /* Build configuration list for PBXProject "walk?" */ = {
+		15BC85951784DD8900CFF5B5 /* Build configuration list for PBXProject "WLAKS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15BC85B71784DD8A00CFF5B5 /* Debug */,
@@ -280,13 +332,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15BC85B91784DD8A00CFF5B5 /* Build configuration list for PBXNativeTarget "walk?" */ = {
+		15BC85B91784DD8A00CFF5B5 /* Build configuration list for PBXNativeTarget "WLAKS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15BC85BA1784DD8A00CFF5B5 /* Debug */,
 				15BC85BB1784DD8A00CFF5B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
